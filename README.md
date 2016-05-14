@@ -1,3 +1,13 @@
+Moved from private development to public development after an half year.
+This was only a project on my own to learn how extern classes works and how to develop a extensible system.
+So this is not in any way a professional code but a beginning ;)
+
+Have FUN with this.
+
+### Who has written this awesome code? :D ###
+
+It's me, Alf21
+
 ### What is this repository for? ###
 
 This Plugin is for SAMP (Shoebill Plugin) and it is written in Java.
