@@ -1,0 +1,7 @@
+class: me.alf21.eventsystem.EventSystem
+name: Eventsystem
+version: 0.1-SNAPSHOT
+buildNumber: ${build.number}
+buildDate: ${build.date}
+authors: Alf21
+description: first build

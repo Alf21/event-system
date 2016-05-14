@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: net.gtaun.wl:wl-language:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/gtaun/wl/wl-language/1.0-SNAPSHOT/wl-language-1.0-20160102.233034-16.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/gtaun/wl/wl-language/1.0-SNAPSHOT/wl-language-1.0-20160102.233034-16-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/gtaun/wl/wl-language/1.0-SNAPSHOT/wl-language-1.0-20160102.233034-16-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

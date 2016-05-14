@@ -1,0 +1,344 @@
+###########################################################################################################################################
+#
+# Anderes
+#
+###########################################################################################################################################
+Credits: "Credits"
+Description: "Beschreibung"
+###########################################################################################################################################
+#
+# Dialog
+#
+###########################################################################################################################################
+Dialog:
+  Activated: "AKTIVIERT"
+  Back: "Zurück"
+  Cancel: "Abbrechen"
+  Choose: "Auswählen"
+  Close: "Schließen"
+  Create: "Erstellen"
+  Deactivated: "DEAKTIVIERT"
+  Details: "Details"
+  Disabled: "AUS"
+  Done: "DONE"
+  Enabled: "AN"
+  Enter: "Bestätigen"
+  Empty: "leer"
+  Error:
+    Error: "Fehler"
+    PositiveNumbers: "Bitte gib nur positive Zahlen ein!"
+    Numbers: "Bitte gib nur Zahlen ein!"
+    MaximumNumbers: "Bitte eine Zahl kleiner gleich %1$s eingeben"
+    MinimumNumbers: "Bitte eine Zahl größer gleich %1$s eingeben"
+  Input:
+    Numbers: "Bitte gib Zahlen ein:"
+  Next: "Weiter"
+  "No": "Nein"
+  NoPlayersAvailable:
+    Caption: "Keine Spieler"
+    Message: "Es sind keine weiteren Spieler verfügbar"
+  NotAvailable: "Nicht verfügbar"
+  Okay: "Okay"
+  Remove: "Löschen"
+  Todo: "TODO"
+  Unselect: "Entladen"
+  Winners: "Gewinner"
+  "Yes": "Ja"
+###########################################################################################################################################
+#
+# Event
+#
+###########################################################################################################################################
+Event:
+###########################################################################################################################################
+# C
+  Change:
+    Change: "Eventart ändern"
+    Caption: "Eventart ändern"
+    Question: "{FF0000}Bist du sicher, dass du die Eventart {FFFF00}%1$s {FF0000}ändern willst?"
+    ToEvent: 
+      ToEvent: "Zur Eventart %1$s wechseln"
+      Question: "Sicher, dass du das tun willst?"
+###########################################################################################################################################
+  Class:
+###########################################################################################################################################
+    Catching:
+      Catched: 
+        Catched: "GEFANGEN"
+        Target: "Du wurdest von %1$s gefangen"
+        Player: "Du hast %1$s gefangen"
+        Message: "%1$s wurde von %2$s gefangen"
+      Catcher:
+        New: "Du bist ein Fänger"
+        Choose: "Wähle den Fänger aus"
+        Faster: "Schneller Fänger"
+        Freeze: "Fänger beim Treffer durch Läufer einfrieren"
+        Message: "Die Fänger sind %1$s"
+        #CatchedByHunters: "Folgende Spieler müssen von %1$s gefangen werden:"
+        CatchedByHunters: "Folgende Spieler müssen gefangen werden:"
+      Catchinglist:
+        Catchinglist: "Fangliste"
+      Caught: "GEFANGEN"
+      Countdown:
+        Countdown: "Countdown"
+        Setting: "Countdown Einstellung"
+        Set: "Countdown setzen"
+        Input:
+          Message: "Bitte gebe die Sekunden für den Countdown ein:"
+      Damage:
+        Multiplicator:
+          Name: "Vehicle-Schadensfaktor"
+          Setting: "Vehicle-Schadensfaktor Einstellung"
+      Description: "Fangespiel"
+      Error:
+        NoHunters: "Es gibt noch keine Fänger!"
+        NoRunners: "Es gibt keine Läufer mehr!"
+      Finish:
+        Finished: "Alle Läufer gefangen!"
+        Message: "Alle Läufer wurden von %1$s gefangen"
+      Leave:
+        Message: "Der Fänger %1$s hat das Event verlassen"
+        Finish: "Das Event wurde beendet, weil der letzte Fänger %1$s das Event verlassen hat"
+      Name: "Fangespiel"
+      Start:
+        Started: "%1$s hat das event (%2$s) gestartet"
+###########################################################################################################################################
+    Missions:
+      Choose:
+        ChooseMission: "Mission auswählen"
+        Caption: "Mission auswählen"
+      Class:
+        Survive:
+          Description: "Überlebe die {FF0000}ZOMBIE{FFFFFF} Apokalypse!"
+          Name: "Überleben"
+      Create:
+        CreatedMessage: "Mission %1$s erstellt!"
+        Question: "Willst du die Mission wirklich laden?"
+      Description: "Einzel- und Mehrspielermissionen"
+      Destroy:
+        DestroyedMessage: "Mission %1$s zerstört!"
+      Name: "Missionen"
+      Start:
+        Failed:
+          NoMission:
+            Caption: "Keine Mission ausgewählt"
+            Message: "Du kannst das Event noch nicht starten, da du noch keine Mission ausgewählt hast!"
+###########################################################################################################################################
+    Race:
+      Description: "Autorennen (mit Autos)"
+      Name: "Autorennen"
+###########################################################################################################################################
+    TTT:
+      Abbr: "TTT"
+      Countdown:
+        Innocent:
+          Name: "Innocent Countdown"
+      Death:
+        Disqualified: "Du bist gestorben und somit disqualifiziert."
+      DeathBody:
+        IsOpened: "Du kannst die Leiche nicht durchsuchen während jemand anderes diese Leiche durchsucht!"
+        Open: "Leiche durchsuchen"
+        Confirm: "Leiche bestätigen"
+        TakeWeapons: "Waffen nehmen"
+        Found: "%1$ss Leiche wurde von %2$s gefunden"
+      Description: "'Trouble in Terrorist Town' aus Garrys Mod"
+      Error:
+        NoTraitors: "Du musst erst eine Anzahl an Traitors in den Einstellungen angeben!"
+      Innocents: "Innocents"
+      Leave:
+        WasTraitor: "{FF0000}%1$s war ein Traitor!{FFFF00}"
+        WasInnocent: "%1$s war {FF0000}ein Innocent {FFFF00}!"
+        WasSpectator: "%1$s war ein Zuschauer"
+      Name: "Trouble in Terrorist Town"
+      Shop:
+        Shop: "Traitorshop"
+        Money: "$TP"
+        Price: "Preis"
+        Object: "Gegenstand"
+        MorePoints: "Du benötigst mehr $T(raitor)P(oints)!"
+      Traitor:
+        Amount: "Anzahl der Traitor"
+        Setting: "Anzahl der Traitor einstellen"
+      Traitors: "Traitors"
+###########################################################################################################################################
+  Create:
+    Create: "Erstellen"
+    AvailableEventtypes: "verfügbare Eventarten"
+    CreateEvent: "Event %1$s erstellen"
+    Question: "Willst du das Event wirklich erstellen?"
+    Failed:
+      Caption: "Erstellen fehlgeschlagen"
+    Input:
+      Caption: "Eventname"
+      Message: "Bitte gebe den Eventnamen ein"
+      Failed:
+        Caption: "Eventname fehlerhaft"
+        NoName:
+          Message: "Bitte gebe einen Eventnamen ein"
+###########################################################################################################################################
+# D
+  Destroy:
+    Destroy: "Löschen"
+    Caption: "Event löschen"
+    Question: "Sicher, dass du dein Event löschen willst?"
+    Destroyed: "Das Event %1$s von %2$s wurde gelöscht"
+###########################################################################################################################################
+  Duration: "Dauer"
+###########################################################################################################################################
+# E
+  Event: "Event"
+  Eventlist: "Eventliste"
+  Eventname: "Eventname"
+  Eventstate: "Eventstatus"
+  Error:
+    MorePlayers: "Du benötigst mehr Spieler (min. %1$s)"
+###########################################################################################################################################
+# F
+  Finish:
+    Finish: "Beenden"
+    Message: "Das Event %1$s wurde nach %2$s beendet"
+    Gametext: "Das Event wurde beendet"
+###########################################################################################################################################
+# G
+  Gametimer:
+    Gametimer: "maximale Eventdauer"
+    Settings:
+      Caption: "Eventdauer einstellen"
+      Input:
+        Message: "Bitte gib die maximale Eventdauer in SEKUNDEN an"
+###########################################################################################################################################
+# I
+  Invite:
+    Invite: "Einladen"
+    ChoosePlayer: "Spieler auswählen"
+    Invited:
+      Owner: 
+        Caption: "Einladung versendet"
+        Message: "Du hast %1$s eingeladen!"
+      Target:
+        Caption: "Du wurdest von %1$s eingeladen"
+        Question: "Willst du dem Event beitreten?"
+    NotAccepted: "%1$s hat die Einladung nicht angenommen"
+###########################################################################################################################################
+  IsNotAvailable: "Der Eventname '%1$s' ist bereits vergeben"
+###########################################################################################################################################
+# J
+  Join:
+    Join: "Beitreten"
+    Joined: "%1$s ist dem Event beigetreten"
+    JoinableEvent: "öffentliches Event"
+    Failed:
+      NotAble: "Beitritt nicht möglich"
+      Eventstate: "Das Event wurde bereits gestartet, versuche es später erneut!"
+      Closed: "Das Event ist nicht mehr öffentlich zugänglich, du musst eingeladen werden."
+###########################################################################################################################################
+# L
+  Leave:
+    Leave: "verlassen"
+    Caption: "Event verlassen"
+    Message: "Bist du sicher, dass du das Event verlassen willst?"
+    Player: "%1$s hat das Event verlassen"
+###########################################################################################################################################
+# M
+  Map:
+    Choose:
+      ChooseMap: "Map auswählen"
+      Caption: "Wähle eine Map aus"
+    Unselect: "Map entladen"
+    Information: "Map Information"
+    Created: "{00FF00}Map {FFFF00}%1$s {00FF00}erstellt!"
+###########################################################################################################################################
+  Member:
+    Members: "Mitglieder"
+    Memberlist: "Mitgliederliste"
+    NoMembers: "Es gibt noch keine Eventmitglieder"
+    NotEnoughMembers: "Das Event besitzt nicht genug Mitglider!"
+    TooManyMembers: "Das Event besitzt zu viele Mitglider!"
+###########################################################################################################################################
+# N
+  NoEventAvailable:
+    Caption: "Nicht verfügbar"
+    Message: "Momentan ist kein Event verfügbar"
+###########################################################################################################################################
+# O
+  Object:
+    DeadBody:
+      Label: "Drücke [H] zum durchsuchen"
+###########################################################################################################################################
+# R
+  Remove:
+    Player: "%1$s wurde aus dem Event geworfen"
+    Member: "Mitglied rausschmeißen"
+    SelectMember: "Wähle einen Member aus, den du rausschmeißen willst"
+    Caption: "Mitglied rausschmeißen"
+    Question: "Sicher, dass du %1$s rausschmeißen willst?"
+    Removed: 
+      Removed: "Rausgeschmissen"
+      Target: "Du wurdest aus dem Event rausgeschmissen"
+      Owner: "Du hast %1$s aus dem Event geschmissen"
+###########################################################################################################################################
+  Result:
+    Caption: "Eventergebnisse"
+    Last: "Letztes Eventergebnis"
+###########################################################################################################################################
+# S
+  Settings:
+    Settings: "Einstellungen"
+    Reset:
+      Reset: "Alles zurücksetzen"
+      Caption: "Einstellungen zurücksetzen"
+      Question: "Sicher, dass du alle Einstellungen zurücksetzen willst?"
+###########################################################################################################################################
+  Spawn:
+    Set: "Spawn setzen"
+    Created:
+      Caption: "Spawn gesetzt"
+      Message: "Du hast den Eventspawn erfolgreich gesetzt"
+###########################################################################################################################################
+  Start:
+    Start: "start"
+    WithPreparation: "mit Vorbereitung"
+    WithoutPreparation: "ohne Vorbereitung"
+    Unprepare: 
+      Unprepare: "Vorbereitung abbrechen"
+      Message: "Die Eventvorbereitungen wurden abgebrochen"
+    Failed:
+      NoSpawn: "Das Event besitzt noch keinen Spawn"
+      NoMap: "Das Event besitzt noch keine Map"
+###########################################################################################################################################
+# T
+  Teleport:
+    Teleport: "Teleportieren"
+    Failed:
+      Caption: "Teleport nicht möglich"
+###########################################################################################################################################
+  Types:
+    Available: "verfügbare Eventarten"
+###########################################################################################################################################
+# W
+  Waiting:
+    Waiting: "Warte"
+    ForPlayers: "Warte auf Spieler..."
+    Checkpoint:
+      Enter: "Bitte bleibe im Checkpoint, bis alle Eventmitglieder sich auch darin befinden"
+      Leave: "Bitte gehe zurück zum Checkpoint"
+      Message:
+        Member: "Bitte begib dich zum Checkpoint um das Event starten zu können"
+        Owner: "Bitte begib dich zum Checkpoint oder starte das event mit /events -> START"
+###########################################################################################################################################
+#
+# Anderes
+#
+###########################################################################################################################################
+EventState:
+  Pause: "Pause"
+  Running: "in Betrieb"
+  Start: "Start"
+  Waiting: "Warte auf Spieler"
+  Ready: "Fertig"
+  Quit: "Beendet"
+  Prepare: "Vorbereitung"
+MaxPlayers: "maximale Spieleranzahl"
+MinPlayers: "minimale Spieleranzahl"
+Players: "Spieler"
+Size: "Größe"

@@ -1,0 +1,344 @@
+###########################################################################################################################################
+#
+# Others
+#
+###########################################################################################################################################
+Credits: "Credits"
+Description: "Description"
+###########################################################################################################################################
+#
+# Dialog
+#
+###########################################################################################################################################
+Dialog:
+  Activated: "ACTIVATED"
+  Back: "Back"
+  Cancel: "Cancel"
+  Choose: "Choose"
+  Close: "Close"
+  Create: "Create"
+  Deactivated: "DEACTIVATED"
+  Details: "Details"
+  Disabled: "DISABLED"
+  Done: "DONE"
+  Enabled: "ENABLED"
+  Enter: "Enter"
+  Empty: "empty"
+  Error:
+    Error: "Error"
+    PositiveNumbers: "Please enter only positive numbers"
+    Numbers: "Please enter only numbers!"
+    MaximumNumbers: "Please enter a NUMBER smaller or the same as %1$s"
+    MinimumNumbers: "Please enter a NUMBER bigger or the same as %1$s"
+  Input:
+    Numbers: "Please enter a NUMBER:"
+  Next: "Next"
+  "No": "No"
+  NoPlayersAvailable:
+    Caption: "No Players"
+    Message: "There are no more available players connected"
+  NotAvailable: "Not available"
+  Okay: "Okay"
+  Remove: "Remove"
+  Todo: "TODO"
+  Unselect: "Unselect"
+  Winners: "Winners"
+  "Yes": "Yes"
+###########################################################################################################################################
+#
+# Event
+#
+###########################################################################################################################################
+Event:
+###########################################################################################################################################
+# C
+  Change:
+    Change: "Change event type"
+    Caption: "Change event type"
+    Question: "{FF0000}Are you sure that you want to change the event type {FFFF00}%1$s{FF0000}?"
+    ToEvent: 
+      ToEvent: "Change to event type %1$s"
+      Question: "Are you sure that you want to do this?"
+###########################################################################################################################################
+  Class:
+###########################################################################################################################################
+    Catching:
+      Catched: 
+        Catched: "CATCHED"
+        Target: "You was catched by %1$s"
+        Player: "You caught %1$s"
+        Message: "%1$s was catched by %2$s"
+      Catcher:
+        New: "You are a hunter"
+        Choose: "Choose hunters"
+        Faster: "Faster Hunters"
+        Freeze: "Freeze hunters on runners weaponshot"
+        Message: "The hunters are %1$s"
+        #CatchedByHunters: "Following players need to be catched by %1$s:"
+        CatchedByHunters: "Following players need to be catched:"
+      Catchinglist:
+        Catchinglist: "Catchinglist"
+      Caught: "CAUGHT"
+      Countdown:
+        Countdown: "Countdown"
+        Setting: "Countdown Setting"
+        Set: "Set countdown"
+        Input:
+          Message: "Please enter the SECONDS for Countdown:"
+      Damage:
+        Multiplicator:
+          Name: "Vehicle Damage Multiplicator"
+          Setting: "Vehicle Damage Multiplicator Setting"
+      Description: "Catching and Runaway"
+      Error:
+        NoHunters: "There are no hunters!"
+        NoRunners: "There are no runners!"
+      Finish:
+        Finished: "All runners were catched!"
+        Message: "All runners were catched by %1$s"
+      Leave:
+        Message: "The hunter %1$s leaved the event"
+        Finish: "The event was finished because of the leaving of the last hunter %1$s"
+      Name: "Catching"
+      Start:
+        Started: "%1$s started the event (%2$s)"
+###########################################################################################################################################
+    Missions:
+      Choose:
+        ChooseMission: "Choose a mission"
+        Caption: "Choose a mission"
+      Class:
+        Survive:
+          Description: "Survive the {FF0000}ZOMBIE{FFFFFF} apokalypse!"
+          Name: "Survive"
+      Create:
+        CreatedMessage: "Mission %1$s created!"
+        Question: "Do you really want to load this mission?"
+      Description: "Singleplayer and Multiplayer Missions"
+      Destroy:
+        DestroyedMessage: "Mission %1$s destroyed!"
+      Name: "Missions"
+      Start:
+        Failed:
+          NoMission:
+            Caption: "No Mission choosed"
+            Message: "You are not able to start event because you don't have selected any mission!"
+###########################################################################################################################################
+    Race:
+      Description: "Race competition (with vehicles)"
+      Name: "Race"
+###########################################################################################################################################
+    TTT:
+      Abbr: "TTT"
+      Countdown:
+        Innocent:
+          Name: "Innocent Countdown"
+      Death:
+        Disqualified: "You are disqualified because of dying."
+      DeathBody:
+        IsOpened: "You can't open the dead body during another player doing it!"
+        Open: "Open dead body"
+        Confirm: "Confirm dead body"
+        TakeWeapons: "Take weapons"
+        Found: "%1$s's dead body was found by %2$s"
+      Description: "'Trouble in Terrorist Town' from Garrys Mod"
+      Error:
+        NoTraitors: "You need to enter an amount of traitors in the settings!"
+      Innocents: "Innocents"
+      Leave:
+        WasTraitor: "{FF0000}%1$s was a traitor!{FFFF00}"
+        WasInnocent: "%1$s was {FF0000}a innocent {FFFF00}!"
+        WasSpectator: "%1$s was a spectator"
+      Name: "Trouble in Terrorist Town"
+      Shop:
+        Shop: "Traitorshop"
+        Money: "$TP"
+        Price: "Price"
+        Object: "Object"
+        MorePoints: "You need more $T(raitor)P(oints)!"
+      Traitor:
+        Amount: "Amount of traitors"
+        Setting: "Set amount of traitors"
+      Traitors: "Traitors"
+###########################################################################################################################################
+  Create:
+    Create: "Create"
+    AvailableEventtypes: "Available eventtypes"
+    CreateEvent: "Create event %1$s"
+    Question: "Do you really want to create this event?"
+    Failed:
+      Caption: "Creation failed"
+    Input:
+      Caption: "Eventname"
+      Message: "Please enter the eventname"
+      Failed:
+        Caption: "Eventname failed"
+        NoName:
+          Message: "Please enter an eventname"
+###########################################################################################################################################
+# D
+  Destroy:
+    Destroy: "Delete"
+    Caption: "Delete event"
+    Question: "Are you sure that you want to delete your event?"
+    Destroyed: "The event %1$s from %2$s was deleted"
+###########################################################################################################################################
+  Duration: "Duration"
+###########################################################################################################################################
+# E
+  Event: "Event"
+  Eventlist: "Eventliste"
+  Eventname: "Eventname"
+  Eventstate: "Eventstate"
+  Error:
+    MorePlayers: "You need more players (min. %1$s)"
+###########################################################################################################################################
+# F
+  Finish:
+    Finish: "Finish"
+    Message: "The event %1$s was finished after %2$s"
+    Gametext: "The event was finished"
+###########################################################################################################################################
+# G
+  Gametimer:
+    Gametimer: "Maximal event duration"
+    Settings:
+      Caption: "Set event duration"
+      Input:
+        Message: "Please enter the maximal event duration in SECONDS"
+###########################################################################################################################################
+# I
+  Invite:
+    Invite: "Invite"
+    ChoosePlayer: "Choose player"
+    Invited:
+      Owner: 
+        Caption: "Invitation sended"
+        Message: "You invited %1$s!"
+      Target:
+        Caption: "You was invited from %1$s"
+        Question: "Do you really want to join the event?"
+    NotAccepted: "%1$s had not accepted your invitation"
+###########################################################################################################################################
+  IsNotAvailable: "The eventname '%1$s' is used"
+###########################################################################################################################################
+# J
+  Join:
+    Join: "Join"
+    Joined: "%1$s joined the event"
+    JoinableEvent: "Public event"
+    Failed:
+      NotAble: "Not able to join"
+      Eventstate: "The event was started, please try it later again!"
+      Closed: "The event is private, you need to get an invitation to join the event"
+###########################################################################################################################################
+# L
+  Leave:
+    Leave: "Leave"
+    Caption: "Leave Event"
+    Message: "Are you sure that you want to leave the event?"
+    Player: "%1$s leaved the event"
+###########################################################################################################################################
+# M
+  Map:
+    Choose:
+      ChooseMap: "Choose map"
+      Caption: "Choose a map"
+    Unselect: "Unselect current map"
+    Information: "Map information"
+    Created: "{00FF00}Map {FFFF00}%1$s {00FF00}created!"
+###########################################################################################################################################
+  Member:
+    Members: "Members"
+    Memberlist: "Memberlist"
+    NoMembers: "The are no members in your event"
+    NotEnoughMembers: "The event does not contains enough members!"
+    TooManyMembers: "The event contains too many members!"
+###########################################################################################################################################
+# N
+  NoEventAvailable:
+    Caption: "Not available"
+    Message: "Currently there are no events available"
+###########################################################################################################################################
+# O
+  Object:
+    DeadBody:
+      Label: "Click [H] to search"
+###########################################################################################################################################
+# R
+  Remove:
+    Player: "%1$s was removed from the event"
+    Member: "Remove member"
+    SelectMember: "Select a member you want to remove"
+    Caption: "Remove member"
+    Question: "Are you sure that you want to remove %1$s?"
+    Removed: 
+      Removed: "Removed!"
+      Target: "You was removed from the event"
+      Owner: "You removed %1$s"
+###########################################################################################################################################
+  Result:
+    Caption: "Event results"
+    Last: "Last event result"
+###########################################################################################################################################
+# S
+  Settings:
+    Settings: "Settings"
+    Reset:
+      Reset: "Reset all"
+      Caption: "Rest settings"
+      Question: "Are you sure that you want to reset all settings?"
+###########################################################################################################################################
+  Spawn:
+    Set: "Set Spawn"
+    Created:
+      Caption: "Spawn was set"
+      Message: "You had set the spawn successfully"
+###########################################################################################################################################
+  Start:
+    Start: "Start"
+    WithPreparation: "with prepatation"
+    WithoutPreparation: "without preparation"
+    Unprepare: 
+      Unprepare: "Unprepare"
+      Message: "The event preparation was canceled"
+    Failed:
+      NoSpawn: "The event does not have any spawn"
+      NoMap: "The event does not have any map"
+###########################################################################################################################################
+# T
+  Teleport:
+    Teleport: "Teleport"
+    Failed:
+      Caption: "Teleport failed"
+###########################################################################################################################################
+  Types:
+    Available: "Available eventtypes"
+###########################################################################################################################################
+# W
+  Waiting:
+    Waiting: "Waiting"
+    ForPlayers: "Waiting for players..."
+    Checkpoint:
+      Enter: "Please stay into the checkpoint during all members come to this checkpoint"
+      Leave: "Please visit the Checkpoint"
+      Message:
+        Member: "Please go to the checkpoint to start the event"
+        Owner: "Please go to the checkpoint to start the event or start manuel with /events -> START"
+###########################################################################################################################################
+#
+# Others
+#
+###########################################################################################################################################
+EventState:
+  Pause: "Break"
+  Running: "Running"
+  Start: "Starting"
+  Waiting: "Waiting for Spieler"
+  Ready: "Finished"
+  Quit: "Quitted"
+  Prepare: "Prepared"
+MaxPlayers: "maximal player amount"
+MinPlayers: "minimal player amount"
+Players: "Players"
+Size: "Size"
