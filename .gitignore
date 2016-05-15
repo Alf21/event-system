@@ -1,5 +1,5 @@
 /target/
-.idea
-.settings
-.iml
-.exe.stackdump
+/.idea/
+/.settings/
+/.*.iml
+/sh.exe.stackdump
